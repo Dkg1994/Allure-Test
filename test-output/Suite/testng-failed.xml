@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testprojectmaven.goibibo.Test1">
+        <methods>
+          <include name="example1"/>
+          <include name="skippedByDependencyTest"/>
+          <include name="example4"/>
+        </methods>
+      </class> <!-- Testprojectmaven.goibibo.Test1 -->
+      <class name="Testprojectmaven.goibibo.Test2">
+        <methods>
+          <include name="test4"/>
+          <include name="test1"/>
+          <include name="skippedByDependencyTest"/>
+        </methods>
+      </class> <!-- Testprojectmaven.goibibo.Test2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
